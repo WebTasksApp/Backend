@@ -1,15 +1,11 @@
 asgiref==3.5.2
 brotlipy==0.7.0
 certifi==2021.5.30
-cffi @ file:///C:/ci/cffi_1625831756778/work
-chardet @ file:///C:/ci/chardet_1607706937985/work
 charset-normalizer==2.0.9
 colorama==0.4.4
 conda==4.10.3
-conda-package-handling @ file:///C:/ci/conda-package-handling_1618262410900/work
 coreapi==2.3.3
 coreschema==0.0.4
-cryptography @ file:///C:/ci/cryptography_1616769504165/work
 defusedxml==0.7.1
 Django==4.0.6
 django-ckeditor==6.2.0
@@ -20,7 +16,6 @@ djangorestframework-simplejwt==5.2.0
 drf-yasg==1.21.3
 gunicorn==20.1.0
 httpie==2.6.0
-idna @ file:///home/linux1/recipes/ci/idna_1610986105248/work
 inflection==0.5.1
 itypes==1.2.0
 Jinja2==3.1.2
@@ -32,24 +27,15 @@ packaging==21.3
 Pillow==9.0.1
 psycopg2==2.9.3
 pycosat==0.6.3
-pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
 Pygments==2.10.0
 PyJWT==2.4.0
-pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1608057966937/work
 pyparsing==3.0.9
-PySocks @ file:///C:/ci/pysocks_1605307512533/work
 pytz==2022.1
 pywin32==228
-requests @ file:///tmp/build/80754af9/requests_1608241421344/work
 requests-toolbelt==0.9.1
-ruamel-yaml-conda @ file:///C:/ci/ruamel_yaml_1616016898638/work
 ruamel.yaml==0.17.21
 ruamel.yaml.clib==0.2.6
-six @ file:///tmp/build/80754af9/six_1623709665295/work
 sqlparse==0.3.0
-tqdm @ file:///tmp/build/80754af9/tqdm_1625563689033/work
 tzdata==2022.1
 uritemplate==4.1.1
-urllib3 @ file:///tmp/build/80754af9/urllib3_1625084269274/work
-win-inet-pton @ file:///C:/ci/win_inet_pton_1605306162074/work
 wincertstore==0.2
