@@ -8,7 +8,7 @@ router.register('tasks', views.TaskModelViewSet, basename='tasks')
 
 
 urlpatterns = [
-    path('', views.TaskModelViewSet.as_view({'get': 'list', 'post': 'create'})),
-    path('<int:pk>', views.TaskModelViewSet.as_view({'get': 'get', 'delete': 'delete', 'patch': 'update'}))
+    path('tasks', views.TaskModelViewSet.as_view({'get': 'list', 'post': 'create'}), name='tasks'),
+    path('task/<int:pk>', views.TaskModelViewSet.as_view({'get': 'get', 'delete': 'delete', 'patch': 'update'}), name='task')
 ]
 urlpatterns += router.urls
